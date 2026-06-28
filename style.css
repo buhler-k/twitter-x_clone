@@ -107,6 +107,7 @@ body{
 .middle-nav{
     display: flex;
     width: 598px;
+    height: 100vh;
     margin-top: 5px;
    
 }
@@ -187,12 +188,97 @@ body{
     color: blue;
 }
 
+.tweeter-details{
+    display: flex;
+    margin-top: 5px; 
 
+
+}
+
+.acc-pro-icon img{
+    height: 8vh;
+    width: 4vw;
+    border-radius: 25px;
+    margin-left: 5px;
+    padding-right: 5px;
+}
+
+.user-acc-img{
+    width: 44px;
+    height: 44px;
+}
+
+.profile-nav{
+    display: flex;
+    margin-left: 15px;
+}
+
+.acc-details{
+    display: flex;
+    
+}
+
+.acc-details .user-name{
+    color: rgb(185, 202, 211);
+}
+
+.acc-details .tweet-date{
+    color: rgb(185, 202, 211);
+}
+
+.profile-nav span{
+    font-size: 1rem;
+}
+
+.acc-details > .material-symbols-outlined{
+    color: blue;
+    font-size: 1rem;
+    
+}
+
+.content-icon{
+    display: flex;
+}
+
+.tweet > .post-caption{
+    
+}
+
+.tweet{
+    margin-left: 60px;
+    margin-top: -20px;
+}
+
+.tweet > video{
+    margin-bottom: 15px;
+}
+
+
+.footer-icons{
+    display: flex;
+}
+
+.tweet-footer{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(185, 202, 211);
+
+}
+
+.tweet-footer :nth-child(1) {
+    margin-left: 3px;
+
+}
+
+.footer-text{
+    padding-top: 2px;
+    padding-left: 2px;
+}
 
 /* right section */
 
 .right-nav{
-    width: 400px;
+    width: 380px;
     
 }
 
