@@ -124,13 +124,48 @@ body{
 }
 
 .content-classification{
-    font-size: 1.5rem;
+    display:flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(185, 202, 211);
+    align-items: center;
+    gap: 20px;
+    height: 8vh;
+    font-size: 1rem;
 }
+
+.content-classification .for-user:hover{
+    background: lightgrey;
+}
+
+.content-classification .for-user{
+    height: 8vh;
+    width: 281.5px;
+    padding-left: 90px;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
+
+.content-classification .followed{
+    width: 281.5px;
+    padding-top: 10px;
+    padding-left: 90px;
+    height: 8vh;
+    cursor: pointer;
+    color: grey;
+}
+
+.content-classification .followed:hover{
+    background: lightgrey;
+    
+}
+
+
 
 
 .post-site{
     border-bottom: 1px solid rgb(185, 202, 211);
-    height: 12vh;
+    height: 13vh;
 }
 
 .posting{
@@ -150,20 +185,35 @@ body{
 
 .post-site .post-icons{
     color: rgb(185, 202, 211);
-    padding-top: px;
+    padding-left: 22px;
+    padding-top: 25px;
+    
 }
 
-.post-icons{
-    padding-left: 22px;
-}
 
 .post-icons span{
-    padding-left: 10px;
+    padding-left: 12px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    
+    left: 1;
+}
+
+.post-icons span:hover{
+    background: gainsboro;
+    border-radius: 50%;
+    
 }
 
 .post-footer{
     display: flex;
-    padding-top: 15px;
+    padding-top: px;
+}
+
+.post-btn{
+    padding-top: 28px;
+    padding-left: 68px;
 }
 
 .posting-btn{
@@ -177,30 +227,48 @@ body{
     
 }
 
-.content-classification{
-    display:flex;
-    gap: 250px;
-    height: 5vh;
-    padding-top: 5px;
-    padding-left: 5px;
-}
 
-.post-collapse{
+
+.more-posts{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 4px;
     border-bottom: 1px solid rgb(185, 202, 211);
-    height: 10vh;
+    height: 8vh;
     color: blue;
+    cursor: pointer;
+     
+}
+
+.post-collapse{
+    width: 568.188px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    height: 8vh;
+}
+
+
+
+.more-posts :hover{
+    
+    background: whiteSmoke;
+}
+
+.timeline-post{
+    cursor: pointer;
+}
+.timeline-post :hover{
+    background: whiteSmoke;
 }
 
 .tweeter-details{
     display: flex;
-    margin-top: 5px; 
-
-
+    margin-top: px; 
+    
 }
+
 
 .acc-pro-icon img{
     height: 8vh;
@@ -219,6 +287,9 @@ body{
     display: flex;
     margin-left: 15px;
 }
+.profile-nav span{
+    font-size: 1rem;
+}
 
 .acc-details{
     display: flex;
@@ -233,14 +304,17 @@ body{
     color: rgb(185, 202, 211);
 }
 
-.profile-nav span{
-    font-size: 1rem;
-}
+
 
 .acc-details > .material-symbols-outlined{
     color: blue;
     font-size: 1rem;
     
+}
+
+.content {
+    display: flex;
+    justify-content: center;
 }
 
 .content-icon{
@@ -249,8 +323,11 @@ body{
 
 
 .tweet{
-    margin-left: 60px;
     margin-top: -20px;
+}
+
+.tweet .post-caption {
+    margin-left: 60px;
 }
 
 .tweet > video{
@@ -330,5 +407,4 @@ body{
 }
 
 .trending-content{
-    border: 1px solid rgb(185, 202, 211);
-}
+    border: 1px solid
