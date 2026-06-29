@@ -9,16 +9,17 @@ body{
 }
 
 /* Left section */
-.left-sidebar{
-    justify-content: center;
-    display: flex;
-    width: 362.500px;
+.sidebar{
+    
+    width: 300px;
     height: 100vh;
+    padding-left: px;
     
 }
 
-.sidebar-items{
-    border-right: 1px solid rgb(185, 202, 211);
+.left-sidebar{
+    position: fixed;
+    padding-left: 25px;
 }
 
 .logo{
@@ -26,22 +27,26 @@ body{
     height: 50px;
     padding-left: 12px;
     margin-top: 5px;
+    border-radius: 10px;
 }
 
 .page-explore{
     display: flex;
-    align-items: center;
     padding: 12px 12px 12px 12px;
     font-size: 1.2rem;
     gap: 15px;
+    cursor: pointer;
 }
 
+.sidebar-items .page-explore{
+    width: 200px;
+}
 
-
-.sidebar-items{
+.sidebar-items :hover{
+    background: lightgrey;
     
-    height: 624.500px;
-    width: 259px;
+    border-radius: 25px;
+
 }
 
 .left-btn{
@@ -94,11 +99,13 @@ body{
 
     justify-content: space-between;
     flex: 1;
-    height: 100vh;
+    
 }
 
 .remaining{
     display: flex;
+    gap: 30px;
+    margin-left: px;
 
 
 }
@@ -106,23 +113,23 @@ body{
 /* middle section */
 .middle-nav{
     display: flex;
-    width: 598px;
-    height: 100vh;
-    margin-top: 5px;
    
 }
 
 .middle-items{
     border: 1px solid rgb(185, 202, 211);
-    width: 520px;
+    padding-left: px;
+    width: 570px;
+   
 }
 
 .content-classification{
     font-size: 1.5rem;
 }
 
+
 .post-site{
-    border: 1px solid rgb(185, 202, 211);
+    border-bottom: 1px solid rgb(185, 202, 211);
     height: 12vh;
 }
 
@@ -183,7 +190,7 @@ body{
     justify-content: center;
     align-items: center;
     padding-top: 4px;
-    border: 1px solid rgb(185, 202, 211);
+    border-bottom: 1px solid rgb(185, 202, 211);
     height: 10vh;
     color: blue;
 }
@@ -240,9 +247,6 @@ body{
     display: flex;
 }
 
-.tweet > .post-caption{
-    
-}
 
 .tweet{
     margin-left: 60px;
@@ -262,6 +266,7 @@ body{
     display: flex;
     justify-content: space-between;
     color: rgb(185, 202, 211);
+    border-bottom: 1px solid rgb(185, 202, 211);;
 
 }
 
