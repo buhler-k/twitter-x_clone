@@ -125,6 +125,9 @@ body{
 
 .content-classification{
     display:flex;
+    position: fixed;
+    background-color: white;
+    opacity: 98%;
     justify-content: center;
     border-bottom: 1px solid rgb(185, 202, 211);
     align-items: center;
@@ -147,7 +150,7 @@ body{
 }
 
 .content-classification .followed{
-    width: 281.5px;
+    width: 266.5px;
     padding-top: 10px;
     padding-left: 90px;
     height: 8vh;
@@ -162,7 +165,9 @@ body{
 
 
 
-
+.posts {
+    margin-top: 65px;
+}
 .post-site{
     border-bottom: 1px solid rgb(185, 202, 211);
     height: 13vh;
@@ -202,7 +207,7 @@ body{
 
 .post-icons span:hover{
     background: gainsboro;
-    border-radius: 50%;
+    border-radius: 12px;
     
 }
 
@@ -371,8 +376,10 @@ body{
 
 .searchbar{
     display: flex;
+    background-color: white;
     border: 1px solid rgb(185, 202, 211);
-    border-radius: 10px;
+    border-radius: 20px;
+    position: fixed;
     width: 28vw;
     margin-top: 5px;
     height: 6vh;
@@ -389,15 +396,101 @@ body{
 
 }
 
-.subscription {
+.right-content{
+    
+    border-radius: 10px;
     border: 1px solid rgb(185, 202, 211);
+    margin-top: 42px;
+}
+
+.subscription {
+    padding-top: 20px;
+    padding-left: 12px;
+    width: 340px;
+    
+}
+
+.subscribe-btn{
+    width: 7vw;
+    height: 7vh;
+    background-color: rgb(32, 154, 224);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .current-news{
+    border-radius: 10px;
+    
+    
     border: 1px solid rgb(185, 202, 211);
 }
 
+.news-nav{
+    display: flex;
+    gap: 230px;
+   
+}
+
+.news-nav span{
+    cursor: pointer;
+}
+
+.news-nav span:hover{
+    background: gainsboro;
+    border-radius: 12px;
+}
+
+.news-caption {
+    width: px;
+    padding-left:10px ;
+    cursor: pointer;
+}
+
+.news-caption:hover{
+    background: whiteSmoke;
+    border-radius: 12px;
+}
+
+.news-footer {
+    display: flex;
+    margin-top: 8px;
+
+}
+
+.news-icons img{
+    height: 3vh;
+    width: 2vw;
+    border-radius: 12px;
+    
+}
+
+.news-icons :nth-child(2){
+    margin-left: -15px;
+}
+
+.news-icons :nth-child(3){
+    margin-left: -20px;
+}
+
+.news-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-right: 5px;
+    
+}
+
+.footer-news-details{
+    color: #536471;
+    
+}
+
+
 .follow{
+    border-radius: 10px;
     display: flex;
     border: 1px solid rgb(185, 202, 211);
 }
@@ -407,4 +500,108 @@ body{
 }
 
 .trending-content{
-    border: 1px solid
+    
+    border-radius: 10px;
+    border: 1px solid rgb(185, 202, 211);
+}
+
+
+.trending-info{
+    padding-left: 8px;
+    display: flex;
+    gap: 180px;
+    color: #536471;
+    
+}
+
+.trending-content h3{
+    padding-left: 8px;
+    padding-bottom:8px;
+}
+
+
+.trending-tweets{
+    height: 54px;
+    cursor: pointer;
+}
+
+.more-tweets{
+    display: flex;
+    padding-top: 16px;
+    padding-left: 8px;
+    color: rgb(0, 162, 255);
+}
+
+.trending-tag{
+    padding-bottom: 8px;
+}
+
+.trending-tweets:hover{
+    background: whiteSmoke;
+    border-radius: 10px;
+}
+
+
+
+.follow-account{
+    display: flex;
+    padding-top: 8px;
+
+}
+
+.test{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+.accounts-to-follow{
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+
+.accounts-to-follow{
+    cursor: pointer;
+}
+
+.accounts-to-follow:hover{
+    border-radius: 10px;
+    background: whiteSmoke;
+}
+
+
+.suggestion-prf-icon {
+    border-radius: 28px;
+}
+
+
+.suggestion-prf-icon img{
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 47%;
+    height: 8vh;
+    width: 4vw;
+}
+
+.suggested-acc{
+    padding-right: px;
+}
+
+.follow-acc-btn{
+    color: white;
+    background: black;
+    width: 80px;
+    height: 30px;
+    border-radius: 12px;
+    
+
+    
+}
+.follow-btn{
+    padding-left: 150px;
+    padding-right: 10px;
+    
+}
