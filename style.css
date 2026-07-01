@@ -428,6 +428,7 @@ body{
 .news-nav{
     display: flex;
     gap: 230px;
+    padding-left: 10px;
    
 }
 
@@ -546,6 +547,11 @@ body{
     gap: 5px;
     height: 12vh;
     cursor: pointer;
+}
+
+.follow :nth-child(4) span{
+    color: blue; 
+    background: none;
 }
 
 .follow-account:hover{
