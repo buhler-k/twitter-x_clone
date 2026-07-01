@@ -118,7 +118,6 @@ body{
 
 .middle-items{
     border: 1px solid rgb(185, 202, 211);
-    padding-left: px;
     width: 570px;
    
 }
@@ -201,8 +200,6 @@ body{
     width: 35px;
     height: 35px;
     cursor: pointer;
-    
-    left: 1;
 }
 
 .post-icons span:hover{
@@ -489,18 +486,7 @@ body{
 }
 
 
-.follow{
-    border-radius: 10px;
-    display: flex;
-    border: 1px solid rgb(185, 202, 211);
-}
-
-.follow-accnt{
-    display: flex;
-}
-
 .trending-content{
-    
     border-radius: 10px;
     border: 1px solid rgb(185, 202, 211);
 }
@@ -542,32 +528,27 @@ body{
 }
 
 
+.follow{
+    border-radius: 10px;
+    
+    border: 1px solid rgb(185, 202, 211);
+}
+
+.follow h3{
+    padding-left: 8px;
+}
 
 .follow-account{
-    display: flex;
+    padding-left: 8px;
     padding-top: 8px;
-
-}
-
-.test{
+    margin-top: 5px;
     display: flex;
-    flex-wrap: nowrap;
-}
-
-
-
-.accounts-to-follow{
-    
-    padding-top: 8px;
-    padding-bottom: 8px;
-    
-}
-
-.accounts-to-follow{
+    gap: 5px;
+    height: 12vh;
     cursor: pointer;
 }
 
-.accounts-to-follow:hover{
+.follow-account:hover{
     border-radius: 10px;
     background: whiteSmoke;
 }
@@ -579,15 +560,20 @@ body{
 
 
 .suggestion-prf-icon img{
-    padding-left: 8px;
-    padding-right: 8px;
     border-radius: 47%;
     height: 8vh;
     width: 4vw;
 }
 
 .suggested-acc{
-    padding-right: px;
+    padding-right: 85px;
+}
+
+.suggested-acc .material-symbols-outlined{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(179, 179, 22);
+    border: none;
 }
 
 .follow-acc-btn{
@@ -596,12 +582,34 @@ body{
     width: 80px;
     height: 30px;
     border-radius: 12px;
-    
-
-    
+    cursor: pointer; 
 }
-.follow-btn{
-    padding-left: 150px;
-    padding-right: 10px;
-    
+
+.follow-account .more-accounts{
+    color: rgb(0, 162, 255);
+    padding-top: 10px;
+
+}
+.right-nav-footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 5px;
+    color: #536471;
+}
+
+a:link{
+    color: #536471;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #536471;
+
+}
+
+.right-nav a:hover{
+    text-decoration: underline;
+
 }
